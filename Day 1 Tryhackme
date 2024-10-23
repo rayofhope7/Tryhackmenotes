@@ -1,2 +1,14 @@
 What do you need to access a web application?
-A web application is like a “program” that we can use without installation as long as we have a modern standard web browser.. Therefore the answer is Browser 
+>>>>>  A web application is like a “program” that we can use without installation as long as we have a modern standard web browser.. Therefore the answer is Browser 
+
+
+What do you mean by Authentication and Authrizations: 
+>>>>> See when we talk about authentication we are tryin to know or veryify the true identity of the user or we can say we are validating that the user is same whom they claim to be.
+
+OK then tell me how do you validate if the user is same that they claim to be: 
+>>>>> we can have multiple ways to validate if user the legiit or same as they claim to be or not like we can verify password, and can implement Multi - Factor Authentication along
+with that we can also implement SMS Verifications as well as can Utilize public key infrastructure (PKI) to verify identities through digital certificates.
+
+What do you mean by digital certificates: 
+>>>>> An electronic document that binds a public key to an identity (like a person or organization). 
+It includes information such as the owner’s name, public key, and the CA’s signature.
