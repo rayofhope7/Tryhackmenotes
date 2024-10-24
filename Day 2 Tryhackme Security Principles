@@ -1,0 +1,39 @@
+1)    What is CIA triad: - 
+>>>>Confidentiality, Integrity, and Availability are represented by the “CIA triad”’s three initials. 
+A prominent model that serves as the foundation for the creation of security systems is the CIA triad. 
+They are used to identify weaknesses and develop strategies for problem-solving.
+>>> When all three requirements have been completed, the organization’s security profile should be stronger and more prepared to cope with threat situations.
+
+2)    The three letters in “CIA triad” stand for Confidentiality, Integrity, and Availability.
+
+A)    Confidentiality — Ensures that data and resources are only available to those that are authorized.
+Example: I’m a customer of IDFC Bank, and I can access my account information, like my balance and transactions. 
+However, I can’t review any other customer’s account or information. That is Confidentiality. 
+
+Implemenations: All customer data is encrypted both in online transactions and stored in databases. Data Encryption — SHA-256 or Bcrypt
+Access to customer financial data is restricted to authorized users only, and strong authentication methods like two-factor authentication are employed.
+So Here, even if an attacker gains access to the bank’s systems, the encrypted data remains protected, and unauthorized access attempts are detected and blocked.
+
+B)    Integrity: - In a bank you financial data is accurate and has been not altered/changed.. or suppose you do a shopping and you uses your credit card to do that shopping 
+so your bankig info or credit card detailes like how much balanced do you have in your credit card should be confident and should not to disclosed or visible 
+to third party vendor/application that is integrity..
+
+Implementation: 
+Data integrity checks, such as checksums and hash functions, are used to verify the integrity of data during transmission and storage.
+(Checksum — Cryptographic hash is created and compared and helps ensure that your copy of the file is genuine and free from errors.)
+Removes duplicates files
+Digital signatures are applied to financial transactions, ensuring that they cannot be altered without detection.
+So Here even any unauthorized modification of customer data or transactions is detected, then the bank can take corrective actions to maintain the accuracy and trustworthiness of the data.
+
+Availability: - Availability focuses on the accessibility and availability of data and systems when needed.
+I’m a customer of HDFC Bank, and I can access my account whenever I need to. This shows how important availability is. 
+Banking should be accessible to everyone 24/7 without any difficulties because people might need money at any time.
+
+Implementatins: 
+Redundancy — Backup hardware such as servers and hard drives
+The system uses load balancing and redundant servers to ensure high availability
+Intrusion detection systems and firewalls are used to protect against DDoS attacks and other threats.
+Continuous Monitoring— Software to monitor internet traffic and performance
+
+Here customers can access their accounts and conduct transactions at any time without service interruptions, and the bank can quickly recover from potential disruptions.
+
