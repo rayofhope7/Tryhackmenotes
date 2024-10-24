@@ -1,0 +1,15 @@
+DAD Triad: -  Disclosure, Alteration, and Denial — represents the critical security failures that every organization must strive to prevent, and it is opposite to CIA Triad. 
+
+1)    Disclosure: Information disclosure, often referred to as information leakage, occurs when a website inadvertently exposes sensitive data to its users. 
+In various scenarios, websites can unintentionally reveal different types of information that could be exploited by potential attackers.
+
+> Other user data 
+> Company confidential documents 
+> Customer financial info 
+> Website technical info about its infrastructure. 
+
+2)   Alteration: Alteration is the opposite of Integrity. An unauthorized change of information/data
+
+3)   Denial: Denial is the opposite of Availability. 
+It is done by flooding the network or server with useless and invalid authentication requests which eventually brings the whole network down, resulting in no connectivity. 
+As a result of this, users are prevented from using a service.
